@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+  height: 100vh;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fill-x {
+  width: 100%;
+}
+.x-90perc {
+  width: 90%;
+}
+
+.flex {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+main, .f-column {
+  flex-direction: column;
+}
+
+.item {
+  border: 1px solid black;
+  background-color: aliceblue;
+  padding: 1rem 2rem;
+}
+
+.item.highlight {
+  background-color: red;
+}
+
+button {
+  margin: auto;
+}
